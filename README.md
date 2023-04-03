@@ -14,9 +14,6 @@ Each class format differs, but all have a common thread: it is just as much abou
 [x] logout
 [x] about page
 
-
-
-```
 ### Roadmap
 ```
 - updates to home page
