@@ -10,9 +10,13 @@ Each class format differs, but all have a common thread: it is just as much abou
 ```
 ### Initial Features
 [x] register for an account
+
 [x] login
+
 [x] logout
+
 [x] about page
+
 
 ### Roadmap
 ```
