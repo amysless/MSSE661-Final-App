@@ -1,0 +1,33 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example test app",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon ./src",
+    "test": "NODE_ENV='test' mocha ./tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "buffer": "^6.0.3",
+    "Buffer": "^0.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22"
+  },
+  "browser": {
+    "crypto": "crypto-browserify",
+    "stream": "stream-browserify"
+  }
+}
