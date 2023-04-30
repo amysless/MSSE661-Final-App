@@ -6,20 +6,17 @@ A Tasty Treat is a casual cooking school offering a variety of cooking classes. 
 
 Each class format differs, but all have a common thread: it is just as much about learning as it is about enjoying your time doing so.  They have kitchens that resemble a home kitchen - purposefully - so that guests can replicate the dishes at home. A Tasty Treat aim to make all the cooking classes as hands-on as possible – though some will naturally be more so than others. 
 ```
-
-```
-### Initial Features
-[x] register for an account
-
+### Inital Features
+[x] register for an account 
 [x] login
-
 [x] logout
-
 [x] about page
 
-
+```
 ### Roadmap
 ```
+Future additions: 
+- provide input to classes to be offered
 - updates to home page
 - css for login page
 - page to a schedule of future (and or past classes).
@@ -28,11 +25,5 @@ Each class format differs, but all have a common thread: it is just as much abou
 - Ability to integrate with Instagram to promote events.
 - Integration with social media to tap into public posts of experiences
 ```
-### Tech Stack
-- Javascript
-- MySql Database
-- MySql Restful API
-- Json Web Tokens
-
 ### Author
 Amy Sless 
