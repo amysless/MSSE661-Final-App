@@ -1,0 +1,27 @@
+{
+  "name": "final app",
+  "version": "1.0.0",
+  "description": "A Tasty Treat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "Buffer": "^0.0.0",
+    "crypto-browserify": "^3.12.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "process": "^0.11.10",
+    "require": "npm:Require@^1.1.2",
+    "Require": "^1.1.2",
+    "stream-browserify": "^3.0.0",
+    "window": "^1.0.0"
+  },
+  "browser": {
+    "crypto": "crypto-browserify",
+    "stream": "stream-browserify"
+  }
+}

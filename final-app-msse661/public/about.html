@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>A Tasty Kitchen</title>
+  </head>
+  <body style="background-color:whitesmoke;">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+        <li class="nav-item active">
+          <a id="login" href="/login.html">Sign In or Register</a>
+        </li>
+        <li class="nav-item">
+          <a id="logout" href="" onclick="doLogout(event)">Logout</a>
+        </li>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="center">
+        <h2>What is A Tasty Kitchen?</h2>
+        <p>A Tasty Kitchen is a  cooking school in Boston.  We would be pleased to have you join us! We offer numerous types of classes inclusive of Baking, Home Cooked Meals, and Technical Skills Classes, and a Cheese Workshop! We have a small international team, with different backgrounds and experiences, who all work with a common value: the desire to share their "savoir faire" and passion with you. </p>
+
+          Each class format differs, but all have a common thread: we believe that a cooking class is just as much about learning as it is about enjoying your time doing so.  In order to enjoy yourself with us, you should be comfortable meeting other visitors, and sharing tasks and efforts with others to produce the end result.  
+          
+          We have kitchens that resemble your home kitchen - purposefully - so that you are able to replicate the dishes at home. This includes the equipment (we are not a professional school with islands and burns and kitchen aids for each individual). We also aim to make all of our cooking classes as hands-on as possible – though some will naturally be more so than others. </p>
+        <h3>We believe the best experience is a shared experience!</h3>
+      </div>
+    </div>
+
+
+    <footer>
+      <p>Author: <a href="https://github.com/amysless">Amy Sless</a></p>
+    </footer>
+    <script src="./lib/api.config.js"></script>
+    <script src="./lib/simple-storage.js"></script>
+    <script src="./lib/service-helpers.js"></script>
+    <script src="./lib/auth.service.js"></script>
+    <script src="./lib/auth.js"></script>
+  </body>
+</html>

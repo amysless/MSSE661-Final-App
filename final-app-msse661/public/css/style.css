@@ -1,0 +1,56 @@
+body{
+    background: rgb(245,245,245);
+    color: #535353;
+    font-size: 25px;
+    font-family: Helvetica;
+  }
+  h1{
+    font-family: Courier;
+    color: rgba(219, 15, 15, 0.932);
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  h2 {
+    font-family: Courier;
+    color: #2E282A;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  a {
+    color:#535353;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #2E282A;
+  }
+  #banner h1 {
+    color: white;
+    font-size: 50px;
+  }
+  #banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  #footer{
+    padding: 20px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+  }
+  #footer a {
+    color: lightgrey;
+    font-size: 15px;
+  }
+  #footer a:hover {
+    color: white;
+  }
+  .card{
+    padding: 50px;
+    font-weight: lighter;
+    outline: medium;
+    outline-color: dimgray;
+  }
+  .button{
+    background-color: black;
+  }
